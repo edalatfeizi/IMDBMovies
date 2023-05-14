@@ -1,10 +1,9 @@
-package dev.movies.demo;
+package dev.movies.demo.controllers;
 
+import dev.movies.demo.services.MovieService;
 import dev.movies.demo.models.Movie;
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

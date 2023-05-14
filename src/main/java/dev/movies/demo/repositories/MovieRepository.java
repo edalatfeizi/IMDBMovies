@@ -1,4 +1,4 @@
-package dev.movies.demo;
+package dev.movies.demo.repositories;
 
 import dev.movies.demo.models.Movie;
 import org.bson.types.ObjectId;
